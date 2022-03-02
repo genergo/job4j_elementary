@@ -1,16 +1,14 @@
 package ru.job4j;
 
 public class Calculator {
-    public static void main(String[] args) {
-        float one = 1;
-        float two = 2;
-        float four = 4;
-        float five = 5;
-        float six = 6;
-        float result = six / four + five;
-        float result1 = one + two;
+        public static void plus(int first, int second) {
+        int result = first + second;
         System.out.println(result);
-        System.out.println(result1);
-
+       }
+        public static void main(String[] args) {
+        Calculator.plus(10, 20);
+        Calculator.plus(100, 500);
+        Calculator.plus(4, 2);
+        Calculator.plus(3, 5);
     }
-}
+ }
