@@ -1,15 +1,15 @@
 package ru.job4j;
 
 public class Calculator {
-        public static void plus(int first, int second) {
-        int result = first + second;
+        public static void delete(double first, double second) {
+            double result = first / second;
         System.out.println(result);
        }
 
         public static void main(String[] args) {
-        Calculator.plus(10, 20);
-        Calculator.plus(100, 500);
-        Calculator.plus(4, 2);
-        Calculator.plus(3, 5);
+        Calculator.delete(90, 20);
+        Calculator.delete(100, 500);
+        Calculator.delete(4, 2);
+        Calculator.delete(3, 7);
     }
  }
