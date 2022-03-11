@@ -1,4 +1,4 @@
-package ru.job4j.Variable;
+package ru.job4j;
 
 public class Massa {
         public static double manWeight(short height) {
