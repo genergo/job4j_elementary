@@ -10,6 +10,6 @@ public class Calculator {
         Calculator.delete(90, 20);
         Calculator.delete(100, 500);
         Calculator.delete(4, 2);
-        Calculator.delete(3, 7);
+        Calculator.delete(3, 1);
     }
  }
