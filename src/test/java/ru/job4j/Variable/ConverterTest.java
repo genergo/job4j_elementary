@@ -8,20 +8,19 @@ public class ConverterTest {
     @Test
     public void whenConvert140RblThen2Euro() {
         float in = 140;
-        float expected = 2;
+        float expected = 3;
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
         Assert.assertEquals(expected, out, eps);
     }
 
     @Test
-    public void whenConvert140RblThen2dot2222Dollar() {
-        float in = 140;
+    public void whenConvert100RblThen2Dollar() {
+        float in = 100;
         float expected = 2;
         float out = Converter.rubleToDollar(in);
         float eps = 0.0001f;
-        boolean passed = expected == out;
-        Assert.assertEquals(expected, out, eps);
+       Assert.assertEquals(expected, out, eps);
     }
 
    }
