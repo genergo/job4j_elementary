@@ -1,7 +1,7 @@
 package ru.job4j.Variable;
 
 public class LogicNot {
-    public static boolean isEven(boolean num) {
+    public static boolean isEven(int num) {
         return num % 2 == 0;
     }
 
