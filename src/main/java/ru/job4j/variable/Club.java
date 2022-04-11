@@ -1,4 +1,4 @@
-package ru.job4j.Variable;
+package ru.job4j.variable;
 
 public class Club {
     public static void permission(boolean hasMoney, boolean beFriend) {

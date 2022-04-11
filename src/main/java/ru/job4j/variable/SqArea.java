@@ -1,8 +1,8 @@
-package ru.job4j.Variable;
+package ru.job4j.variable;
 
 public class SqArea {
     public static double square(int p, int k) {
-        double h = p/(2*(k + 1));
+        double h = p / (2 * (k + 1));
         double l = h * k;
         return l * h;
         }

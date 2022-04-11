@@ -1,4 +1,4 @@
-package ru.job4j.Variable;
+package ru.job4j.variable;
 
 public class TrgArea {
     public static double area(double a, double b, double c) {

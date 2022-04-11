@@ -1,6 +1,4 @@
-package ru.job4j.Info.condition;
-
-import ru.job4j.Variable.SqArea;
+package ru.job4j.info.condition;
 
 public class Step {
     public static void main(String[] args) {

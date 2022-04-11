@@ -1,4 +1,4 @@
-package ru.job4j.Variable;
+package ru.job4j.variable;
 
 public class Max {
     public static int net(int left, int right) {

@@ -1,4 +1,4 @@
-package ru.job4j.Variable;
+package ru.job4j.variable;
 
 public class ArgMethod {
         public static void hello(String name) {

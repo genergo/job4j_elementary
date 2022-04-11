@@ -1,8 +1,6 @@
-package ru.job4j.Variable;
+package ru.job4j.variable;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class FilmTest {
 

@@ -1,8 +1,7 @@
-package ru.job4j.Variable;
+package ru.job4j.variable;
 
 import org.junit.Assert;
 import org.junit.Test;
-import ru.job4j.Point;
 
 public class PointTest {
 
