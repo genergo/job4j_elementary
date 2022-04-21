@@ -1,7 +1,7 @@
 package ru.job4j.Info.condition;
 
-import org.junit.Test;
 import org.junit.Assert;
+import org.junit.Test;
 
 public class X2Test {
 
