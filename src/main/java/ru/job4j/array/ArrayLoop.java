@@ -7,7 +7,7 @@ public class ArrayLoop {
             numbers[i] = i * 2 + 3;
         }
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
+            System.out.println("Элемент массива ["+ i +"]: " + numbers[i]);
         }
         for (int num: numbers) {
             System.out.println(num);
