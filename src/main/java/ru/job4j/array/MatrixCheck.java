@@ -1,4 +1,4 @@
-package ru.job4j.array;
+package ru.job4j.array; //Моно столбец в матрице
 
 public class MatrixCheck {
     public static boolean monoHorizontal(char[][] board, int row) {
